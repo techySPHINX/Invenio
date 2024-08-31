@@ -15,7 +15,6 @@ import {
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import React from "react";
 
 interface SidebarLinkProps {
     href: string;
@@ -77,7 +76,7 @@ const Sidebar = () => {
                     }`}
             >
                 <Image
-                    src="https://s3-inventorymanagement.s3.us-east-2.amazonaws.com/logo.png"
+                    src=""
                     alt="edstock-logo"
                     width={27}
                     height={27}
